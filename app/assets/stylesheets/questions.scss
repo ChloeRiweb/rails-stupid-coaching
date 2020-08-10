@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+
+body {
+  background: white; // Using this variable
+  font-family: arial;
+}
+
+.form {
+  padding: 24px, 24px;
+  margin : 24px, 24px;
+
+}
+
+.coach {
+  border-left: 8px solid $gray;
+  color: #333333;
+  background-color: #FFFFE1;
+  margin: 16px;
+  padding: 16px;
+}
+
+.you {
+  border-left: 8px solid $gray;
+  margin: 16px;
+  padding: 16px;
+}
+
+p {
+  padding: 24px, 24px;
+}
